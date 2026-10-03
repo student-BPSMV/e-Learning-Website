@@ -125,7 +125,6 @@ function Testimonials() {
         <button
           type="submit"
           className="mt-5 bg-[#06BBCC] text-white h-12 w-56 px-4 rounded active:scale-95 transition text-lg font-medium active:text-[#06BBCC] active:bg-white active:border-2 active:border-[#06BBCC] mb-20"
-          data-aos="slide-up"
         >
           Submit Review
         </button>

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Contact() {
   const [form, setForm] = useState({
@@ -54,11 +55,17 @@ function Contact() {
                 Contact
               </h1>
               <ul className="flex justify-center items-center gap-2 text-xl pt-4">
-                <li>Home</li>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
                 <li>/</li>
-                <li>About</li>
+                <li>
+                  <Link to="/about">About</Link>
+                </li>
                 <li>/</li>
-                <li>Courses</li>
+                <li>
+                  <Link to="/courses">Courses</Link>
+                </li>
               </ul>
             </div>
           </div>

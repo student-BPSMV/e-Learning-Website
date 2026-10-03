@@ -1,4 +1,5 @@
 import React from "react";
+import Testimonials from "./Testimonials";
 
 function HeroSection() {
   return (
@@ -76,7 +77,7 @@ function HeroSection() {
                   <h2 class="title-font font-bold text-2xl text-black leading-18 mt-1 transition duration-300 group-hover:text-white">
                     Skilled Instructors
                   </h2>
-                  <p class="leading-relaxed text-lg font-normal mt-1 transition duration-300 group-hover:text-white">
+                  <p class="leading-relaxed text-lg font-normal -mt-1 transition duration-300 group-hover:text-white">
                     Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
                     amet diam
                   </p>
@@ -91,7 +92,7 @@ function HeroSection() {
                   <h2 class="title-font font-bold text-2xl text-black leading-18 mt-1 transition duration-300 group-hover:text-white">
                     Online Classes
                   </h2>
-                  <p class="leading-relaxed text-lg font-normal mt-1 transition duration-300 group-hover:text-white">
+                  <p class="leading-relaxed text-lg font-normal -mt-1  transition duration-300 group-hover:text-white">
                     Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
                     amet diam
                   </p>
@@ -106,7 +107,7 @@ function HeroSection() {
                   <h2 class="title-font font-bold text-2xl text-black leading-18 mt-1 transition duration-300 group-hover:text-white">
                     Home Projects
                   </h2>
-                  <p class="leading-relaxed text-lg font-normal mt-1 transition duration-300 group-hover:text-white">
+                  <p class="leading-relaxed text-lg font-normal -mt-1 transition duration-300 group-hover:text-white">
                     Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
                     amet diam
                   </p>
@@ -121,7 +122,7 @@ function HeroSection() {
                   <h2 class="title-font font-bold text-2xl text-black leading-18 mt-1 transition duration-300 group-hover:text-white">
                     Book Library
                   </h2>
-                  <p class="leading-relaxed text-lg font-normal mt-1 transition duration-300 group-hover:text-white">
+                  <p class="leading-relaxed text-lg font-normal -mt-1 transition duration-300 group-hover:text-white">
                     Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
                     amet diam
                   </p>
@@ -653,6 +654,7 @@ function HeroSection() {
           </div>
         </div>
       </section>
+      <Testimonials></Testimonials>
     </section>
   );
 }

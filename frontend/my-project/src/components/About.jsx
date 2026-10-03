@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -20,14 +21,20 @@ function About() {
           <div className="flex justify-center gap-100 items-center">
             <div className="relative z-30 -mt-13 pt-40 pb-40 text-white">
               <h1 className="text-7xl font-extrabold" data-aos="fade-down">
-                About
+                About Us
               </h1>
               <ul className="flex justify-center items-center gap-2 text-xl pt-4">
-                <li>Home</li>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
                 <li>/</li>
-                <li>Contact</li>
+                <li>
+                  <Link to="/contact">Contact</Link>
+                </li>
                 <li>/</li>
-                <li>Courses</li>
+                <li>
+                  <Link to="/courses">Courses</Link>
+                </li>
               </ul>
             </div>
           </div>

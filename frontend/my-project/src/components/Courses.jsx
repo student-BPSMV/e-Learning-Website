@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Courses() {
   return (
@@ -23,11 +24,17 @@ function Courses() {
                 Courses
               </h1>
               <ul className="flex justify-center items-center gap-2 text-xl pt-4">
-                <li>Home</li>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
                 <li>/</li>
-                <li>About</li>
+                <li>
+                  <Link to="/about">About</Link>
+                </li>
                 <li>/</li>
-                <li>Contact</li>
+                <li>
+                  <Link to="/contact">Contact</Link>
+                </li>
               </ul>
             </div>
           </div>

@@ -9,7 +9,6 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
-import Testimonials from "./components/Testimonials";
 
 function App() {
   useEffect(() => {
@@ -29,7 +28,6 @@ function App() {
           <Route path="/contact" element={<Contact></Contact>}></Route>
           <Route path="/courses" element={<Courses></Courses>}></Route>
         </Routes>
-        <Testimonials></Testimonials>
         <Footer></Footer>
       </BrowserRouter>
     </>
