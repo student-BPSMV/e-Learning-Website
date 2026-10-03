@@ -13,7 +13,7 @@
 
 [📂 Repository](https://github.com/student-BPSMV/e-Learning-Website) · [✨ Features](#-features) · [📸 Screenshots](#-screenshots) · [🔌 API](#-rest-api) · [⚙️ Setup](#️-getting-started)
 
-![Home Page](web/frontend/my-project/public/HeroSection_screenshot.png)
+![Home Page](frontend/my-project/public/HeroSection_screenshot.png)
 
 </div>
 
@@ -31,43 +31,38 @@ I built it to practise the full development loop end to end: designing reusable 
 
 ## ✨ Features
 
-|     | Feature                             | Details                                                                             |
-| --- | ----------------------------------- | ----------------------------------------------------------------------------------- |
-| 📱  | **Fully responsive UI**             | Built mobile-first with Tailwind CSS                                                |
-| 🧭  | **Client-side routing**             | Smooth page navigation with React Router                                            |
-| 📚  | **Course browsing**                 | Course cards with price, rating, instructor, duration and student count             |
-| 🔍  | **Search & filtering**              | Find the right course quickly                                                       |
-| 📩  | **Contact form**                    | Name, email, subject and message are posted to the backend and saved in `data.json` |
-| ⭐  | **Testimonial submission**          | Visitors can submit their name, designation and review                              |
-| 🔄  | **Live testimonial feed**           | Reviews are fetched from the API and rendered dynamically                           |
-| 🎠  | **Scrollable testimonial carousel** | Newly added reviews appear without editing any code                                 |
-| ✨  | **Scroll animations**               | AOS (Animate On Scroll) for a polished feel                                         |
-| 🧩  | **Reusable components**             | Navbar, Footer, Hero, Course cards, Testimonials and more                           |
-| ✅  | **Form validation**                 | Required-field checks guard the forms                                               |
+| | Feature | Details |
+|---|---|---|
+| 📱 | **Fully responsive UI** | Built mobile-first with Tailwind CSS |
+| 🧭 | **Client-side routing** | Smooth page navigation with React Router |
+| 📚 | **Course browsing** | Course cards with price, rating, instructor, duration and student count |
+| 🔍 | **Search & filtering** | Find the right course quickly |
+| 📩 | **Contact form** | Name, email, subject and message are posted to the backend and saved in `data.json` |
+| ⭐ | **Testimonial submission** | Visitors can submit their name, designation and review |
+| 🔄 | **Live testimonial feed** | Reviews are fetched from the API and rendered dynamically |
+| 🎠 | **Scrollable testimonial carousel** | Newly added reviews appear without editing any code |
+| ✨ | **Scroll animations** | AOS (Animate On Scroll) for a polished feel |
+| 🧩 | **Reusable components** | Navbar, Footer, Hero, Course cards, Testimonials and more |
+| ✅ | **Form validation** | Required-field checks guard the forms |
 
 ---
 
 ## 📸 Screenshots
 
 ### 🏠 Home / Hero Section
-
-![Home](web/frontend/my-project/public/HeroSection_screenshot.png)
+![Home](frontend/my-project/public/HeroSection_screenshot.png)
 
 ### 📖 About Page
-
-![About](web/frontend/my-project/public/About_screenshot.png)
+![About](frontend/my-project/public/About_screenshot.png)
 
 ### 📚 Popular Courses
-
-![Courses](web/frontend/my-project/public/Courses_screenshot.png)
+![Courses](frontend/my-project/public/Courses_screenshot.png)
 
 ### ⭐ Student Testimonials
-
-![Testimonials](web/frontend/my-project/public/Testimonial_screenshot.png)
+![Testimonials](frontend/my-project/public/Testimonial_screenshot.png)
 
 ### 📝 Share Your Feedback (Testimonial Form)
-
-![Feedback Form](web/frontend/my-project/public/TestimonialForm_screenshot.png)
+![Feedback Form](frontend/my-project/public/TestimonialForm_screenshot.png)
 
 ---
 
@@ -75,25 +70,25 @@ I built it to practise the full development loop end to end: designing reusable 
 
 **Frontend**
 
-| Technology                                                                                          | Purpose                             |
-| --------------------------------------------------------------------------------------------------- | ----------------------------------- |
-| ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black)                     | Component-based UI                  |
-| ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)      | Application logic and interactivity |
-| ![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white)                        | Fast dev server and build tool      |
-| ![Tailwind](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)    | Responsive, utility-first styling   |
-| ![React Router](https://img.shields.io/badge/-React_Router-CA4245?logo=reactrouter&logoColor=white) | Client-side routing                 |
-| **AOS**                                                                                             | Scroll-based animations             |
-| ![Font Awesome](https://img.shields.io/badge/-Font_Awesome-528DD7?logo=fontawesome&logoColor=white) | Icons                               |
+| Technology | Purpose |
+|---|---|
+| ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black) | Component-based UI |
+| ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black) | Application logic and interactivity |
+| ![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white) | Fast dev server and build tool |
+| ![Tailwind](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white) | Responsive, utility-first styling |
+| ![React Router](https://img.shields.io/badge/-React_Router-CA4245?logo=reactrouter&logoColor=white) | Client-side routing |
+| **AOS** | Scroll-based animations |
+| ![Font Awesome](https://img.shields.io/badge/-Font_Awesome-528DD7?logo=fontawesome&logoColor=white) | Icons |
 
 **Backend**
 
-| Technology                                                                              | Purpose                                 |
-| --------------------------------------------------------------------------------------- | --------------------------------------- |
-| ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=nodedotjs&logoColor=white) | JavaScript runtime                      |
-| ![Express](https://img.shields.io/badge/-Express-000000?logo=express&logoColor=white)   | Server and REST API                     |
-| **CORS**                                                                                | Secure frontend ↔ backend communication |
-| **`fs` module**                                                                         | Reading and writing JSON data           |
-| **JSON files**                                                                          | Lightweight data storage                |
+| Technology | Purpose |
+|---|---|
+| ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=nodedotjs&logoColor=white) | JavaScript runtime |
+| ![Express](https://img.shields.io/badge/-Express-000000?logo=express&logoColor=white) | Server and REST API |
+| **CORS** | Secure frontend ↔ backend communication |
+| **`fs` module** | Reading and writing JSON data |
+| **JSON files** | Lightweight data storage |
 
 > Prebuilt UI templates were used as a design foundation and then customised to fit the project's requirements.
 
@@ -129,11 +124,11 @@ Testimonials Section  ←  GET /api/testimonials  ←─────────
 
 ## 🔌 REST API
 
-| Method | Endpoint            | Description                                     |
-| :----: | ------------------- | ----------------------------------------------- |
-| `POST` | `/api/submit`       | Stores contact form data in `backend/data.json` |
-| `GET`  | `/api/testimonials` | Returns all testimonials                        |
-| `POST` | `/api/testimonials` | Adds a new testimonial to `backend/test.json`   |
+| Method | Endpoint | Description |
+|:---:|---|---|
+| `POST` | `/api/submit` | Stores contact form data in `backend/data.json` |
+| `GET` | `/api/testimonials` | Returns all testimonials |
+| `POST` | `/api/testimonials` | Adds a new testimonial to `backend/test.json` |
 
 <details>
 <summary><b>📥 Example: add a testimonial</b></summary>
@@ -200,8 +195,8 @@ e-Learning/
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v16 or later recommended)
-- npm
+* [Node.js](https://nodejs.org/) (v16 or later recommended)
+* npm
 
 ### 1️⃣ Clone the repository
 
@@ -234,15 +229,15 @@ Vite will print the local URL in the terminal (usually `http://localhost:5173`).
 
 ## 🎯 What I Learned
 
-- Structuring a React app with **reusable components** and **React Router**
-- Handling **controlled forms** and validation in React
-- Consuming APIs with **`fetch()`** and rendering live data
-- Designing **REST endpoints** with Express (GET and POST)
-- Reading and writing data with the Node **`fs`** module
-- Configuring **CORS** for frontend ↔ backend communication
-- Building **responsive layouts** with Tailwind CSS
-- Adding **scroll animations** with AOS
-- Managing a project with **Git and GitHub**
+* Structuring a React app with **reusable components** and **React Router**
+* Handling **controlled forms** and validation in React
+* Consuming APIs with **`fetch()`** and rendering live data
+* Designing **REST endpoints** with Express (GET and POST)
+* Reading and writing data with the Node **`fs`** module
+* Configuring **CORS** for frontend ↔ backend communication
+* Building **responsive layouts** with Tailwind CSS
+* Adding **scroll animations** with AOS
+* Managing a project with **Git and GitHub**
 
 ---
 
